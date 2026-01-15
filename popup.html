@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Student Buddy</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+
+<h1>🎓 Student Buddy</h1>
+<button id="toggle-theme">🌙 Toggle Dark Mode</button>
+
+<section>
+  <h2>📌 To-Do List</h2>
+  <input id="todo-input" placeholder="Write task exactly as you want…" />
+  <button id="add-todo">Add Task</button>
+  <ul id="todo-list"></ul>
+</section>
+
+<section>
+  <h2>⏱ Pomodoro</h2>
+  <div id="timer">25:00</div>
+  <button id="start">Start</button>
+  <button id="reset">Reset</button>
+  <p id="focus-status">🚫 Focus Mode OFF</p>
+</section>
+
+<section>
+  <h2>📝 Notes</h2>
+  <textarea id="notes" placeholder="Write notes here…"></textarea>
+</section>
+
+<section>
+  <h2>🔔 Exam Reminders</h2>
+  <input id="exam-title" placeholder="Exam / Assignment name" />
+  <input type="datetime-local" id="exam-time" />
+  <button id="add-exam">Add Reminder</button>
+  <ul id="exam-list"></ul>
+</section>
+
+<section>
+  <h2>🌐 Useful Study Links</h2>
+  <ul class="links">
+    <li><a href="https://www.google.com" target="_blank">Google</a></li>
+    <li><a href="https://chat.openai.com" target="_blank">ChatGPT</a></li>
+    <li><a href="https://developer.mozilla.org" target="_blank">MDN Docs</a></li>
+    <li><a href="https://leetcode.com" target="_blank">LeetCode</a></li>
+    <li><a href="https://stackoverflow.com" target="_blank">Stack Overflow</a></li>
+    <li><a href="https://github.com" target="_blank">GitHub</a></li>
+  </ul>
+</section>
+
+<script src="popup.js"></script>
+</body>
+</html>
